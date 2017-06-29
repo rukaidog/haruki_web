@@ -1,0 +1,63 @@
+body {
+	background-image:url(../img/homeBG4.jpg);
+	background-repeat: repeat;
+	 background-position:center;
+	 background-size:cover;
+}
+.jumbotron{background-color: #D0DAA0;}
+.scoreList {
+	position: relative;
+	padding-right: 15px;
+	padding-left: 15px;
+	float: left;
+	width: auto;
+	
+}
+.nav {
+	margin: 5px;
+	padding: 25px;
+	list-style-type: none;
+}
+
+.nav td {
+	display: block;
+	float: left;
+	margin: 0 5px;
+	background: url(../img/bg.jpg) no-repeat center top;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 1px 1px 1px #666;
+	-webkit-box-shadow: 1px 1px 1px #666;
+	-o-box-shadow: 1px 1px 1px #666;
+	box-shadow: 1px 1px 1px #666;
+}
+
+.nav button {
+outline:none;
+	display: block;
+	padding: 25px 35px;
+	font-family: cursive, arial;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #666;
+	text-align: center;
+	background: url(../img/bg.jpg) no-repeat center -200px;
+	background: rgba(80, 125, 200, 0.55);
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-transition: background 0.5s linear;
+	-moz-transition: background 0.5s linear;
+	-o-transition: background 0.5s linear;
+	transition: background 0.5s linear;
+}
+
+.nav button:hover {
+	background: url(../img/bg.jpg) no-repeat center top;
+	background: rgba(100, 125, 175, 0);
+}

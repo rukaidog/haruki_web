@@ -1,0 +1,113 @@
+body {
+	background-image:url(../img/homeBG4.jpg);
+	background-repeat: repeat;
+	 background-position:center;
+	 background-size:cover;
+}
+.jumbotron{background-color: #D0DAA0;}
+.introduce{
+	width:390px;
+	float:left;
+	
+}
+.scoreList {	
+	top:300px;
+	
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	float: left;
+	width: 30%%;
+}
+
+.dropbtn {
+	background-color: grey;
+	color: silver;
+	padding: 0px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+.dropdown-content {
+	display:none;
+	z-index:999999;
+	position: absolute;
+	padding:0px;
+	background-color: #f9f9f9;
+	min-width: 60px;
+	min-height: 180px;
+	box-shadow: 8px 8px 16px 5px rgba(0, 0, 0, 0.2);
+}
+.dropdown-content button{padding:0px;}
+
+.dropdown-content a {
+	color: black;
+	padding: 0px 0px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+	display: inline-table;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #3e8e41;
+}
+
+.nav {
+	float:left;
+	width:400px;
+	margin: 5px;
+	padding: 25px;
+	list-style-type: none;
+}
+
+.nav td {
+	display: block;
+	float: left;
+	margin: 0 5px;
+	background: url(../img/bg.jpg) no-repeat center top;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 1px 1px 1px #666;
+	-webkit-box-shadow: 1px 1px 1px #666;
+	-o-box-shadow: 1px 1px 1px #666;
+	box-shadow: 1px 1px 1px #666;
+}
+
+.nav button {
+outline:none;
+
+	display: block;
+	padding: 25px 35px;
+	font-family: Arial, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #666;
+	text-align: center;
+	background: url(../img/bg.jpg) no-repeat center -200px;
+	background: rgba(80, 125, 200, 0.55);
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-transition: background 0.5s linear;
+	-moz-transition: background 0.5s linear;
+	-o-transition: background 0.5s linear;
+	transition: background 0.5s linear;
+}
+
+.nav button:hover {
+	background: url(../img/bg.jpg) no-repeat center top;
+	background: rgba(100, 125, 175, 0);
+}
